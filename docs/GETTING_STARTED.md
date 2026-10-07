@@ -4,7 +4,7 @@
 
 macOS 下載包適用於 Apple Silicon。解壓縮 ZIP，將 `CreAilo.app` 拖入「應用程式」後開啟。此版本未經 Apple Developer 簽章及公證；若 macOS 阻止執行，請確認來源後查看「系統設定 → 隱私權與安全性」。不需安裝 Python 或 Node.js 才能啟動 CreAilo。
 
-Windows v0.1.0-alpha.2 適用 Windows 10/11 x64。完整解壓縮後執行 `CreAilo.exe`，保留 `_internal` 資料夾。需安裝 [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)。此測試包尚未簽章。
+Windows v0.1.0-alpha.3 適用 Windows 10/11 x64。完整解壓縮後先執行 `Start-CreAilo.cmd`，保留 `_internal` 資料夾。需安裝 [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)。此測試包尚未簽章。
 
 ## 建立本機專案
 
@@ -56,3 +56,7 @@ Claude 連接尚待更多實機測試。找不到 CLI 時，進階使用者可�
 另行啟動 ComfyUI 並安裝所需模型。在「生圖引擎」填入服務 API 位址，測試連接，再匯入 **API 格式**工作流 JSON。分別設定純文字與參考圖工作流，指定 Prompt、尺寸、種子和參考圖欄位；選擇 SaveImage 輸出。參考圖槽數必須符合實際連接的圖片數。程式不會自動下載模型。
 
 使用 ComfyUI 生圖不需要 Codex 帳號；「自動建立對白」目前仍透過 Codex 配置。此版本已以模擬 ComfyUI 服務驗證串接，尚未完成真實 Qwen 模型推論測試。
+
+### Windows 下載封鎖
+
+若出現 `Failed to resolve Python.Runtime.Loader.Initialize`，可能是網路下載標記阻止 .NET 載入 DLL。alpha.3 的 `Start-CreAilo.cmd` 會解除本包 EXE、DLL、PYD 的下載封鎖，再啟動軟體，不會修改全域安全設定。請確認檔案來自官方 Release 後使用。舊版可先在 ZIP 右鍵「內容」勾選「解除封鎖」，套用後解壓縮到新資料夾；已解壓的舊資料夾仍可能保留封鎖。
