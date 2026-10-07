@@ -64,3 +64,7 @@ Claude 連接尚待更多實機測試。找不到 CLI 時，進階使用者可�
 ### Windows alpha.4 自動準備 Codex
 
 在 AI 帳號選單按「準備 Codex 元件並登入 ChatGPT」。程式會下載官方固定版本、驗證 SHA-256，完成後啟動官方瀏覽器登入，不需要手動安裝 Node.js 或 Codex CLI。下載需要網路；既有本機 Codex 仍可使用。元件獨立儲存在 `%LOCALAPPDATA%/CreAilo/runtimes`，帳號仍由 Codex 管理，未加入自動升級最新版功能。
+
+### 文字貼上（Windows alpha.5）
+
+創作夥伴輸入框與 Prompt 可右鍵選「貼上」或「全選」。貼上包含元素 ID 的標籤會保留引用並顯示簡短名稱。鍵盤 Ctrl+V（Mac：⌘V）仍可使用。桌面版直接讀取文字剪貼簿；網頁測試版需瀏覽器允許剪貼簿讀取，否則使用鍵盤貼上。
