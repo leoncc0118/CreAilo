@@ -1,8 +1,8 @@
 # 早期測試版限制
 
-- 目前僅提供 macOS Apple Silicon 包，未完成 Apple Developer 簽章及公證。
+- 目前提供 Windows x64 與 macOS Apple Silicon 測試包；Windows 未簽章，macOS 未完成 Apple Developer 簽章及公證。
 - 已在開發主機檢查啟動；仍需要不同 macOS 版本與乾淨環境的使用者測試。
-- Windows、macOS Intel 與 Linux 尚未提供測試包。
+- macOS Intel 與 Linux 尚未提供測試包。
 - 圖片生成依賴相容的 Codex CLI、帳號能力及可用額度。CreAilo 不內建離線生圖模型。
 - Claude 協作連接尚待實際登入帳號的完整驗證；目前不作為生圖引擎。
 - 生成工作依序執行，等待佇列需要專案保持開啟。
@@ -10,3 +10,5 @@
 - Panel 選取、拖曳、文字輸出與即時更新仍在持續改善。
 - 請用副本測試並定期備份。此版本不提供正式版本的穩定性保證。
 - 遠端網頁僅用於開發測試，本次發布的是桌面測試版。
+
+- 分層合成的前景提示會要求透明 PNG，但實際透明通道仍依生圖引擎與工作流支援而定。

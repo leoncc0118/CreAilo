@@ -14,7 +14,7 @@ CreAilo 是正在開發中的桌面創作工具。你可以在無限畫布上安
 | --- | --- |
 | macOS Apple Silicon（M 系列） | 第一版測試包 |
 | macOS Intel | 尚未提供 |
-| Windows 10/11 x64 | v0.1.0-alpha.5 測試包 |
+| Windows 10/11 x64 | v0.1.0-alpha.6 測試包 |
 | Linux | 尚未提供 |
 
 目前為早期測試版。請使用副本測試，定期備份專案資料夾。
@@ -33,7 +33,7 @@ CreAilo 是正在開發中的桌面創作工具。你可以在無限畫布上安
 1. 下載並解壓縮測試包，macOS 將 `CreAilo.app` 拖入「應用程式」；Windows 完整解壓縮後先執行 `Start-CreAilo.cmd`。
 2. 開啟 CreAilo，建立專案並選擇本機儲存位置。
 3. 不使用 AI 時，可以先匯入圖片、排列版面及加入文字。
-4. 要使用 AI，請先依照 [使用指南](docs/GETTING_STARTED.md) 安裝相關 CLI，再透過右上角的 **AI 帳號** 連接自己的帳號。
+4. 要使用 AI，可透過右上角的 **AI 帳號** 自動準備 Codex 元件並登入；Claude 與 ComfyUI 請依照 [使用指南](docs/GETTING_STARTED.md) 設定。
 5. 在編輯頁打開 **創作夥伴**，或建立 Prompt 並連到 Frame／Panel。
 
 測試版尚未使用 Apple Developer 簽章與公證。macOS 可能阻止開啟；確認下載來源與 SHA-256 後，可前往「系統設定 → 隱私權與安全性」查看是否有「仍要打開」。受管理的電腦可能無法允許執行。

@@ -1,14 +1,21 @@
-# CreAilo v0.1.0-alpha.1
+# CreAilo v0.1.0-alpha.6 — Windows 測試版
 
-第一個公開桌面測試版，提供無限畫布、Frame／Panel 編輯、Prompt 連線與生成佇列、創作夥伴及可編輯對白。
+本版整合近期畫布與創作夥伴更新，請先備份專案，使用副本測試。
 
-## 下載
+- 圖層拖到 Panel 上下插入線可移至 Frame 同層，放在中央則放入 Panel；圖片图示統一。
+- Section 切換只顯示目前畫板，支援跨 Section 複製貼上；縮放與平移不列入內容復原。
+- 文字支援局部格式、手動縮放、直式排版與上中下對齊；字體選單加入預覽、搜尋、我的最愛及最近使用。
+- 新增可編輯手繪對話框，改善雙擊進入編輯與多選刪除。
+- 創作夥伴支援上傳、拖入與剪貼簿圖片；送出前保留縮圖並可移除，送出後存入 Assets。
+- @ 引用加入縮圖與滑入放大預覽，修正引用選單持續顯示及 Prompt 輸入區寬度。
+- 協作模型與生圖引擎移至輸入框右下角，說明、選項與設定改用彈出視窗。
+- 更新分層合成與無邊框生圖提示，改善生圖結果同步錯誤顯示。
+- Windows CLI 文字管線使用 UTF-8，避免中文與 emoji 引發 cp950 編碼錯誤。
 
-- `CreAilo-v0.1.0-alpha.1-macOS-arm64.zip`：macOS Apple Silicon 桌面測試包。
-- `SHA256SUMS.txt`：下載檔案的 SHA-256。
+## 下載與啟動
 
-解壓縮後將 `CreAilo.app` 拖入「應用程式」。未經 Apple Developer 簽章及公證，macOS 可能阻止執行。詳見 repository 的使用指南。
+下載 `CreAilo-v0.1.0-alpha.6-Windows-x64.zip`，完整解壓縮後執行 `Start-CreAilo.cmd`，保留 `_internal` 資料夾。適用 Windows 10/11 x64，需要 Microsoft Edge WebView2 Runtime。
 
-AI 功能需另外安裝相容 CLI 並登入自己的帳號。Claude 協作尚待完整實機驗證；圖片生成目前使用 Codex。此包不包含開發者帳號、私人專案或原始碼 repository 歷史。
+Codex 可在 AI 帳號選單自動準備元件並透過官方瀏覽器登入。測試包不包含帳號、模型與私人專案。
 
-請使用副本測試並備份專案。不同 macOS 版本與乾淨環境相容性仍待驗證。問題請回報至 Issues。
+透明 PNG 是否真正包含 alpha 通道，仍取決於選用的生圖引擎與工作流。本版未提供新的透明輸出開關。
