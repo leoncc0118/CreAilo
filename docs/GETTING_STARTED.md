@@ -4,7 +4,7 @@
 
 macOS 下載包適用於 Apple Silicon。解壓縮 ZIP，將 `CreAilo.app` 拖入「應用程式」後開啟。此版本未經 Apple Developer 簽章及公證；若 macOS 阻止執行，請確認來源後查看「系統設定 → 隱私權與安全性」。不需安裝 Python 或 Node.js 才能啟動 CreAilo。
 
-Windows v0.1.0-alpha.7 適用 Windows 10/11 x64。執行 `*-Setup.exe` 安裝，之後從開始功能表或桌面啟動；舊 ZIP 版才需完整解壓縮並執行 `Start-CreAilo.cmd`。需安裝 [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)。此測試包尚未簽章。
+Windows v0.1.0-alpha.8 適用 Windows 10/11 x64。執行 `*-Setup.exe` 安裝，之後從開始功能表或桌面啟動；舊 ZIP 版才需完整解壓縮並執行 `Start-CreAilo.cmd`。需安裝 [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)。此測試包尚未簽章。
 
 ## 建立本機專案
 
@@ -69,10 +69,12 @@ Claude 連接尚待更多實機測試。找不到 CLI 時，進階使用者可�
 
 創作夥伴輸入框與 Prompt 可右鍵選「貼上」或「全選」。貼上包含元素 ID 的標籤會保留引用並顯示簡短名稱。鍵盤 Ctrl+V（Mac：⌘V）仍可使用。桌面版直接讀取文字剪貼簿；網頁測試版需瀏覽器允許剪貼簿讀取，否則使用鍵盤貼上。
 
-### 安裝與升級（Windows alpha.7）
+### 安裝與升級（Windows alpha.8）
 
-安裝版預設位於 `%LOCALAPPDATA%\Programs\CreAilo`，不需要管理員權限。後續安裝版使用相同安裝識別碼，會沿用原安裝目錄並覆蓋程式核心。
+安裝版預設位於 `C:\Program Files\CreAilo`，安裝、升級與卸載需要管理員權限。後續安裝版使用相同安裝識別碼，會沿用原安裝目錄並覆蓋程式核心。
 
 最近專案、回收桶與介面偏好保留在 `%LOCALAPPDATA%\AI Comic Fixer`；Codex 元件位於 `%LOCALAPPDATA%\CreAilo\runtimes`；專案與 Assets 保留在你原先選擇的資料夾。安裝、升級與卸載不刪除這些資料。
 
 從 ZIP 版轉用安裝版不需要搬移專案。如果原專案沒有列出，使用「開啟資料夾」重新選擇。舊版未持久保存的字體最愛、聊天選項等介面偏好，首次轉換可能需重新設定；安裝版後續會保留。
+
+alpha.7 是目前使用者安裝版，位於 AppData。轉用 alpha.8 前可先卸載 alpha.7，設定與專案仍會保留；再執行 alpha.8 安裝到 Program Files，避免留下兩份程式與捷徑。之後的 Program Files 安裝版可直接覆蓋升級。

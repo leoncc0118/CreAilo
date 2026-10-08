@@ -1,18 +1,15 @@
-# CreAilo v0.1.0-alpha.7 — Windows 圖示與視窗修正
+# CreAilo v0.1.0-alpha.8 — Program Files 安裝版
 
-- 新增藍色素描 C 字 Logo，以前傾字形、速度線與多重筆觸呈現科技感，套用到程式 EXE、原生視窗、工作列與首頁。
-- Windows 改用原生標題列與視窗邊框，最大化依系統工作區保留工作列空間。
-- 移除重複的網頁視窗按鈕與自製拖曳、縮放處理，交由 Windows 處理視窗移動、縮放與 Snap Layouts。
-- 新增安裝程式，後續安裝版可覆蓋升級；設定、專案與 Codex 元件儲存在程式目錄外，卸載也保留資料。
-- 介面偏好改用固定 WebView 資料目錄，避免重啟或升級後遺失。
-- 延續 alpha.6 的畫布、文字與創作夥伴更新。
+- 預設安裝到 `C:\Program Files\CreAilo`，供這台電腦的使用者使用。
+- 安裝、升級與卸載會要求管理員權限。
+- 各使用者的設定、最近專案、介面偏好與 Codex 元件仍保存在各自的使用者資料目錄；專案保留在原本選擇的資料夾。
+- 後續安裝版可覆蓋程式核心，升級與卸載保留使用者資料。
+- 延續 alpha.7 的藍色素描 C 字圖示、Windows 原生視窗與最大化工作區修正。
 
-## 使用
+## 下載與升級
 
-下載並執行 `CreAilo-v0.1.0-alpha.7-Windows-x64-Setup.exe`，完成安裝後從開始功能表或桌面開啟 CreAilo。適用 Windows 10/11 x64，需 Microsoft Edge WebView2 Runtime。
+執行 `CreAilo-v0.1.0-alpha.8-Windows-x64-Setup.exe`，完成後從開始功能表或桌面開啟。
 
-Windows 11 可使用原生最大化按鈕的 Snap Layouts、Win+Z 或 Win+方向鍵。是否顯示排列選單也取決於 Windows 的多工設定。Windows 10 不提供 Windows 11 的排列選單。
+如果已安裝 alpha.7，可先在 Windows 設定的「已安裝的應用程式」卸載 alpha.7，再安裝 alpha.8，以免留下兩份程式。卸載會保留設定與專案；請先備份專案，再使用副本測試。
 
-請先備份專案並使用副本測試；本版仍未簽章。CI 已驗證原生視窗、應用程式圖示與最大化工作區；Snap 排列選單仍需 Windows 11 實機確認。
-
-既有 ZIP 版本可直接改用安裝版，不需要把專案複製進安裝資料夾；若專案未自動列出，使用「開啟資料夾」選擇原專案。首次安裝後，未曾持久保存的舊版介面偏好可能需要重新設定。
+適用 Windows 10/11 x64，需 Microsoft Edge WebView2 Runtime。測試版尚未簽章。Windows 11 Snap 排列選單仍需實機確認。
