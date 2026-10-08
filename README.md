@@ -30,7 +30,7 @@ CreAilo 是正在開發中的桌面創作工具。你可以在無限畫布上安
 
 ## 第一次使用
 
-1. 下載並解壓縮測試包，macOS 將 `CreAilo.app` 拖入「應用程式」；Windows 完整解壓縮後先執行 `Start-CreAilo.cmd`。
+1. 下載並解壓縮測試包，macOS 將 `CreAilo.app` 拖入「應用程式」；Windows 執行 `*-Setup.exe` 安裝程式，之後從開始功能表或桌面開啟。
 2. 開啟 CreAilo，建立專案並選擇本機儲存位置。
 3. 不使用 AI 時，可以先匯入圖片、排列版面及加入文字。
 4. 要使用 AI，可透過右上角的 **AI 帳號** 自動準備 Codex 元件並登入；Claude 與 ComfyUI 請依照 [使用指南](docs/GETTING_STARTED.md) 設定。
