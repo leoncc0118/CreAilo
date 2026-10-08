@@ -1,21 +1,14 @@
-# CreAilo v0.1.0-alpha.6 — Windows 測試版
+# CreAilo v0.1.0-alpha.7 — Windows 圖示與視窗修正
 
-本版整合近期畫布與創作夥伴更新，請先備份專案，使用副本測試。
+- 新增藍色鉛筆 C 字 Logo，套用到程式 EXE、原生視窗、工作列與首頁。
+- Windows 改用原生標題列與視窗邊框，最大化依系統工作區保留工作列空間。
+- 移除重複的網頁視窗按鈕與自製拖曳、縮放處理，交由 Windows 處理視窗移動、縮放與 Snap Layouts。
+- 延續 alpha.6 的畫布、文字與創作夥伴更新。
 
-- 圖層拖到 Panel 上下插入線可移至 Frame 同層，放在中央則放入 Panel；圖片图示統一。
-- Section 切換只顯示目前畫板，支援跨 Section 複製貼上；縮放與平移不列入內容復原。
-- 文字支援局部格式、手動縮放、直式排版與上中下對齊；字體選單加入預覽、搜尋、我的最愛及最近使用。
-- 新增可編輯手繪對話框，改善雙擊進入編輯與多選刪除。
-- 創作夥伴支援上傳、拖入與剪貼簿圖片；送出前保留縮圖並可移除，送出後存入 Assets。
-- @ 引用加入縮圖與滑入放大預覽，修正引用選單持續顯示及 Prompt 輸入區寬度。
-- 協作模型與生圖引擎移至輸入框右下角，說明、選項與設定改用彈出視窗。
-- 更新分層合成與無邊框生圖提示，改善生圖結果同步錯誤顯示。
-- Windows CLI 文字管線使用 UTF-8，避免中文與 emoji 引發 cp950 編碼錯誤。
+## 使用
 
-## 下載與啟動
+下載 `CreAilo-v0.1.0-alpha.7-Windows-x64.zip`，完整解壓縮到新的資料夾後執行 `Start-CreAilo.cmd`，保留 `_internal`。適用 Windows 10/11 x64，需 Microsoft Edge WebView2 Runtime。
 
-下載 `CreAilo-v0.1.0-alpha.6-Windows-x64.zip`，完整解壓縮後執行 `Start-CreAilo.cmd`，保留 `_internal` 資料夾。適用 Windows 10/11 x64，需要 Microsoft Edge WebView2 Runtime。
+Windows 11 可使用原生最大化按鈕的 Snap Layouts、Win+Z 或 Win+方向鍵。是否顯示排列選單也取決於 Windows 的多工設定。Windows 10 不提供 Windows 11 的排列選單。
 
-Codex 可在 AI 帳號選單自動準備元件並透過官方瀏覽器登入。測試包不包含帳號、模型與私人專案。
-
-透明 PNG 是否真正包含 alpha 通道，仍取決於選用的生圖引擎與工作流。本版未提供新的透明輸出開關。
+請先備份專案並使用副本測試；本版仍未簽章。CI 已驗證原生視窗、應用程式圖示與最大化工作區；Snap 排列選單仍需 Windows 11 實機確認。
