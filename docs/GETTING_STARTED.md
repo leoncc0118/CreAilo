@@ -4,7 +4,7 @@
 
 macOS 下載包適用於 Apple Silicon。解壓縮 ZIP，將 `CreAilo.app` 拖入「應用程式」後開啟。此版本未經 Apple Developer 簽章及公證；若 macOS 阻止執行，請確認來源後查看「系統設定 → 隱私權與安全性」。不需安裝 Python 或 Node.js 才能啟動 CreAilo。
 
-Windows v0.1.0-alpha.8 適用 Windows 10/11 x64。執行 `*-Setup.exe` 安裝，之後從開始功能表或桌面啟動；舊 ZIP 版才需完整解壓縮並執行 `Start-CreAilo.cmd`。需安裝 [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)。此測試包尚未簽章。
+Windows v0.1.0-alpha.9 適用 Windows 10/11 x64。執行 `*-Setup.exe` 安裝，之後從開始功能表或桌面啟動；舊 ZIP 版才需完整解壓縮並執行 `Start-CreAilo.cmd`。需安裝 [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)。此測試包尚未簽章。
 
 ## 建立本機專案
 
@@ -14,7 +14,7 @@ Windows v0.1.0-alpha.8 適用 Windows 10/11 x64。執行 `*-Setup.exe` 安裝，
 
 ### Codex
 
-依 [Codex CLI 官方文件](https://developers.openai.com/codex/cli/) 安裝 CLI，完成官方帳號登入後重新開啟 CreAilo。可在 AI 帳號選單查看連接狀態。帳號選單出現在 Dashboard 右上角，以及編輯頁右側工具列。
+依 [Codex CLI 官方文件](https://developers.openai.com/codex/cli/) 安裝 CLI，完成官方帳號登入後重新開啟 CreAilo。可在 AI 帳號選單查看連接狀態。帳號選單出現在 Dashboard 首頁側邊欄，以及編輯頁右側工具列。
 
 本測試版的圖片生成使用本機 Codex CLI。需要具有圖片生成能力的相容 CLI 版本與帳號；成功登入並不保證可生成圖片。圖片能力或額度不支援時，請回報錯誤訊息與 CLI 版本。
 
