@@ -4,7 +4,7 @@
 
 macOS 下載包適用於 Apple Silicon。解壓縮 ZIP，將 `CreAilo.app` 拖入「應用程式」後開啟。此版本未經 Apple Developer 簽章及公證；若 macOS 阻止執行，請確認來源後查看「系統設定 → 隱私權與安全性」。不需安裝 Python 或 Node.js 才能啟動 CreAilo。
 
-Windows v0.1.0-alpha.9 適用 Windows 10/11 x64。執行 `*-Setup.exe` 安裝，之後從開始功能表或桌面啟動；舊 ZIP 版才需完整解壓縮並執行 `Start-CreAilo.cmd`。需安裝 [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)。此測試包尚未簽章。
+Windows v0.1.0-alpha.11 適用 Windows 10/11 x64。執行 `*-Setup.exe` 安裝，之後從開始功能表或桌面啟動；舊 ZIP 版才需完整解壓縮並執行 `Start-CreAilo.cmd`。需安裝 [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)。此測試包尚未簽章。
 
 ## 建立本機專案
 
@@ -93,3 +93,7 @@ alpha.8 與更舊版本須先手動安裝一次含更新器的新版。macOS App
 單張未旋轉、未套用變形及特效的圖片會以原始像素尺寸複製，保留圖片本身的透明通道；其他選取內容依版面合成高解析度 PNG。大型範圍會受輸出尺寸上限限制。複製結果會顯示於畫面上方。
 
 桌面版使用本機圖片剪貼簿。瀏覽器測試版需使用 HTTPS 或同一台電腦的 localhost 網址，並允許剪貼簿權限；遠端 HTTP IP 網址無法使用圖片剪貼簿。
+
+## 版本與更新
+
+從首頁側邊欄版本文字或「設定 → 關於與更新」查看目前安裝版本並檢查更新。alpha.11 修正更新後沿用舊介面快取的問題，保留專案與設定。
