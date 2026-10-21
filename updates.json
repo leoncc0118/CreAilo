@@ -1,11 +1,16 @@
 {
   "version": "0.1.0-alpha.11",
-  "notes": "# CreAilo v0.1.0-alpha.11 — 更新介面修正與創作工具改進\n\n- 修正更新後仍顯示舊介面的問題：介面入口加入內容指紋，避免沿用舊入口快取，首次載入新版時自動備份重建介面快取並保留 Local Storage 與 Cookies；本機服務埠被占用時，改用由本次程序成功啟動的服務，避免載入其他舊程序的介面。\n- 創作夥伴新增 Codex 模型與思考程度選擇，依目前主機 CLI 提供的模型清單顯示支援選項，記住選擇並套用到實際請求。使用 CreAilo 淺色選單與小尺寸滑桿，最低程度不顯示藍色區段。\n- 設定新增「關於與更新」，可查看已安裝版本並手動檢查、下載及安裝更新；首頁側邊欄提供版本入口。\n- 寬高欄位統一加入比例鎖定，預設鎖定，支援圖片、文字、對白、Frame、Panel 與 Prompt 等物件。\n- 多選圖片後可右鍵「自動排列圖片」；新增整理相連、選取或全部工作流程，保留連結與物件內容，支援復原。\n- 點擊空白畫布會選取目前 Section；修正前方物件覆蓋時仍能碰到後方連線節點的問題。\n- 保留 alpha.10 的「複製為 PNG」、新版夥伴輸入框、可編輯分鏡與對白改進。\n\n## 下載與更新\n\n本次提供 Windows 10/11 x64：`CreAilo-v0.1.0-alpha.11-Windows-x64-Setup.exe`；另提供完整 ZIP 包。\n已安裝 alpha.9／alpha.10 且內建更新器的使用者，可在軟體內取得新版通知。確認下載後，儲存專案並安裝更新；專案與設定保留。\nmacOS 本輪未發布更新，既有測試包保留在歷史版本。\n",
+  "notes": "# CreAilo v0.1.0-alpha.11 — 更新介面修正與創作工具改進\n\n- 修正更新後仍顯示舊介面的問題：介面入口加入內容指紋，避免沿用舊入口快取，首次載入新版時自動備份重建介面快取並保留 Local Storage 與 Cookies；本機服務埠被占用時，改用由本次程序成功啟動的服務，避免載入其他舊程序的介面。\n- 創作夥伴新增 Codex 模型與思考程度選擇，依目前主機 CLI 提供的模型清單顯示支援選項，記住選擇並套用到實際請求。使用 CreAilo 淺色選單與小尺寸滑桿，最低程度不顯示藍色區段。\n- 設定新增「關於與更新」，可查看已安裝版本並手動檢查、下載及安裝更新；首頁側邊欄提供版本入口。\n- 寬高欄位統一加入比例鎖定，預設鎖定，支援圖片、文字、對白、Frame、Panel 與 Prompt 等物件。\n- 多選圖片後可右鍵「自動排列圖片」；新增整理相連、選取或全部工作流程，保留連結與物件內容，支援復原。\n- 點擊空白畫布會選取目前 Section；修正前方物件覆蓋時仍能碰到後方連線節點的問題。\n- 保留 alpha.10 的「複製為 PNG」、新版夥伴輸入框、可編輯分鏡與對白改進。\n\n## 下載與更新\n\nWindows 10/11 x64：`CreAilo-v0.1.0-alpha.11-Windows-x64-Setup.exe`；另提供完整 ZIP 包。\nmacOS Apple Silicon（M 系列）：`CreAilo-v0.1.0-alpha.11-macOS-arm64.zip`。原生啟動、ZIP 解壓副本、介面載入、設定保留與更新替換流程已通過測試；修正迴圈介面服務進行反向 DNS 查詢造成的啟動延遲，以及視窗關閉後原生 API 回傳執行緒等待而使程序無法結束的問題。\n已安裝 alpha.9／alpha.10 且內建更新器的使用者，可在軟體內取得新版通知。確認下載後，儲存專案並安裝更新；專案與設定保留。\nmacOS alpha.1 使用者需先儲存並關閉舊版，再手動解壓並將 CreAilo.app 移入應用程式資料夾。alpha.11 可檢查後續版本更新，自動替換需要 App 所在資料夾有寫入權限。Intel Mac 本輪尚未提供。\nmacOS 包使用 ad-hoc 測試簽章，尚未經 Apple Developer 簽章與公證。若系統阻擋開啟，確認官方來源與校驗碼後，可到「系統設定 → 隱私權與安全性」查看「仍要打開」。\n",
   "platforms": {
     "windows-x64": {
       "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.11/CreAilo-v0.1.0-alpha.11-Windows-x64-Setup.exe",
       "size": 14931037,
       "sha256": "28910dab2ec248112ee36b2c6e79d09e012fecfc4a35abf17ee8b5490b60d135"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.11/CreAilo-v0.1.0-alpha.11-macOS-arm64.zip",
+      "size": 15053968,
+      "sha256": "2ba168a18f8b24fc3aaf682a1d03db11d3fbd138636fa23737c7aa67e5b756b2"
     }
   }
 }

@@ -10,6 +10,8 @@
 
 ## 下載與更新
 
-本次提供 Windows 10/11 x64：`CreAilo-v0.1.0-alpha.11-Windows-x64-Setup.exe`；另提供完整 ZIP 包。
+Windows 10/11 x64：`CreAilo-v0.1.0-alpha.11-Windows-x64-Setup.exe`；另提供完整 ZIP 包。
+macOS Apple Silicon（M 系列）：`CreAilo-v0.1.0-alpha.11-macOS-arm64.zip`。原生啟動、ZIP 解壓副本、介面載入、設定保留與更新替換流程已通過測試；修正迴圈介面服務進行反向 DNS 查詢造成的啟動延遲，以及視窗關閉後原生 API 回傳執行緒等待而使程序無法結束的問題。
 已安裝 alpha.9／alpha.10 且內建更新器的使用者，可在軟體內取得新版通知。確認下載後，儲存專案並安裝更新；專案與設定保留。
-macOS 本輪未發布更新，既有測試包保留在歷史版本。
+macOS alpha.1 使用者需先儲存並關閉舊版，再手動解壓並將 CreAilo.app 移入應用程式資料夾。alpha.11 可檢查後續版本更新，自動替換需要 App 所在資料夾有寫入權限。Intel Mac 本輪尚未提供。
+macOS 包使用 ad-hoc 測試簽章，尚未經 Apple Developer 簽章與公證。若系統阻擋開啟，確認官方來源與校驗碼後，可到「系統設定 → 隱私權與安全性」查看「仍要打開」。

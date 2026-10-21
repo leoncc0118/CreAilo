@@ -12,7 +12,7 @@ CreAilo 是正在開發中的桌面創作工具。你可以在無限畫布上安
 
 | 平台 | 狀態 |
 | --- | --- |
-| macOS Apple Silicon（M 系列） | 既有測試包；alpha.11 尚未提供 |
+| macOS Apple Silicon（M 系列） | v0.1.0-alpha.11 測試包 |
 | macOS Intel | 尚未提供 |
 | Windows 10/11 x64 | v0.1.0-alpha.11 測試包 |
 | Linux | 尚未提供 |
