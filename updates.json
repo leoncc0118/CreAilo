@@ -1,16 +1,16 @@
 {
-  "version": "0.1.0-alpha.13",
-  "notes": "CreAilo 0.1.0-alpha.13\n\n- AI 局部修改支援多選區、點選物件、預覽縮放、背景生成與圖片分頁群組。\n- 最近專案可展開 Section，同一專案可開多個分頁，近期 Section 切換優先使用快取。\n- 對話框支援網格變形。\n- 修正首頁儲存時間及舊專案的畫布 Frame 對應。\n",
+  "version": "0.1.0-alpha.14",
+  "notes": "CreAilo 0.1.0-alpha.14\n\n- 改善大型專案開啟流程，優先載入目前視窗中的圖片。\n- Assets 新增專案垃圾桶，支援還原與移到系統垃圾桶。\n- 改善字型選擇、文字 Inspect、Frame 控制點和旁白框複製。\n- Prompt 支援跳轉關聯圖層與裁切圖片參照。\n- AI 修圖新增整圖參照與預覽版本操作。\n",
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.13/CreAilo-v0.1.0-alpha.13-Windows-x64-Setup.exe",
-      "size": 15781634,
-      "sha256": "14f6dd4c5e6711587cba8451a2e0457ab64d272e426377a3f57a3808f8537ece"
+      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.14/CreAilo-v0.1.0-alpha.14-Windows-x64-Setup.exe",
+      "size": 15811312,
+      "sha256": "ac68261bb84a24b1a487fdb8718a592e8993517f105bc67bc79418bf300add4d"
     },
     "macos-arm64": {
-      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.13/CreAilo-v0.1.0-alpha.13-macOS-arm64.zip",
-      "size": 15176845,
-      "sha256": "26b62e9ecae1b27a31529b3f36439a9d6075a9f5a36e9ef67fbaaec6f73006d6"
+      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.14/CreAilo-v0.1.0-alpha.14-macOS-arm64.zip",
+      "size": 15229794,
+      "sha256": "27e624e7ddf07c698b9a6a28930f0aa8736dde93c48168f44f182fa6c72970f7"
     }
   }
 }
