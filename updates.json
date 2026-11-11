@@ -1,16 +1,16 @@
 {
-  "version": "0.1.0-alpha.14",
-  "notes": "CreAilo 0.1.0-alpha.14\n\n- 改善大型專案開啟流程，優先載入目前視窗中的圖片。\n- Assets 新增專案垃圾桶，支援還原與移到系統垃圾桶。\n- 改善字型選擇、文字 Inspect、Frame 控制點和旁白框複製。\n- Prompt 支援跳轉關聯圖層與裁切圖片參照。\n- AI 修圖新增整圖參照與預覽版本操作。\n",
+  "version": "0.1.0-alpha.15",
+  "notes": "CreAilo 0.1.0-alpha.15\n\n- 新增 Webtoon 切片尺標與分段匯出，創作夥伴可參考切線規劃分鏡與對白。\n- 改善圖層拖曳、插入位置提示與選取時的圖層定位。\n- 整合 Windows 與 macOS 的專案分頁和視窗標題列。\n- 專案未設定封面時，自動使用素材庫中的圖片。\n- 調整 macOS Dock 圖示的透明留白。\n",
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.14/CreAilo-v0.1.0-alpha.14-Windows-x64-Setup.exe",
-      "size": 15811312,
-      "sha256": "ac68261bb84a24b1a487fdb8718a592e8993517f105bc67bc79418bf300add4d"
+      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.15/CreAilo-v0.1.0-alpha.15-Windows-x64-Setup.exe",
+      "size": 19537644,
+      "sha256": "5a562571f9bdb4fe071906b1e76e60169bf4a55f3dd5d57e1d06aeb759b9f8dd"
     },
     "macos-arm64": {
-      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.14/CreAilo-v0.1.0-alpha.14-macOS-arm64.zip",
-      "size": 15229794,
-      "sha256": "27e624e7ddf07c698b9a6a28930f0aa8736dde93c48168f44f182fa6c72970f7"
+      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.15/CreAilo-v0.1.0-alpha.15-macOS-arm64.zip",
+      "size": 18422414,
+      "sha256": "ea4e86a1a90d5d077e6e0160178a75f7f621341a24b9ec60d33f9055db63cb4d"
     }
   }
 }
