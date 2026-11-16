@@ -1,16 +1,16 @@
 {
-  "version": "0.1.0-alpha.15",
-  "notes": "CreAilo 0.1.0-alpha.15\n\n- 新增 Webtoon 切片尺標與分段匯出，創作夥伴可參考切線規劃分鏡與對白。\n- 改善圖層拖曳、插入位置提示與選取時的圖層定位。\n- 整合 Windows 與 macOS 的專案分頁和視窗標題列。\n- 專案未設定封面時，自動使用素材庫中的圖片。\n- 調整 macOS Dock 圖示的透明留白。\n",
+  "version": "0.1.0-alpha.16",
+  "notes": "CreAilo v0.1.0-alpha.16\n\n- 創作夥伴新增整頁生圖，可由劇本規劃多頁漫畫並批次生成。\n- 工作區新增左側工具列，集中畫布、創作夥伴、素材、輸出與帳號設定。\n- Dashboard 支援從清單移除或將 .ccpj 移至系統垃圾桶，並可預覽已刪除的素材。\n- 修正專案自動封面與 Windows 啟動、視窗縮放及重複開啟問題。\n",
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.15/CreAilo-v0.1.0-alpha.15-Windows-x64-Setup.exe",
-      "size": 19537644,
-      "sha256": "5a562571f9bdb4fe071906b1e76e60169bf4a55f3dd5d57e1d06aeb759b9f8dd"
+      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.16/CreAilo-v0.1.0-alpha.16-Windows-x64-Setup.exe",
+      "size": 19545822,
+      "sha256": "aa929ec9bbb1f34606c7cf0669ba9367e0294a1635d167b8221793eb7c10e905"
     },
     "macos-arm64": {
-      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.15/CreAilo-v0.1.0-alpha.15-macOS-arm64.zip",
-      "size": 18422414,
-      "sha256": "ea4e86a1a90d5d077e6e0160178a75f7f621341a24b9ec60d33f9055db63cb4d"
+      "url": "https://github.com/leoncc0118/CreAilo/releases/download/v0.1.0-alpha.16/CreAilo-v0.1.0-alpha.16-macOS-arm64.zip",
+      "size": 18432623,
+      "sha256": "45798c50409fbb9ca094883c6bad3e4268db67bce51f7b55dd58efa13d3e02e5"
     }
   }
 }
